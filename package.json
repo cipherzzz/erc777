@@ -1,0 +1,23 @@
+{
+  "name": "erc777",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "openzeppelin-solidity": "github:catageek/openzeppelin-solidity#feature/ERC777-#1159",
+    "truffle-hdwallet-provider": "0.0.6"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC"
+}
